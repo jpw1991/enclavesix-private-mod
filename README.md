@@ -1,6 +1,10 @@
-# ChebsModStub
+# EnclaveSixPrivateMod
 
-to do
+A collection of additions and changes to Valheim requested by user EnclaveSix.
+
+**This is a private mod.** As such, what it does may not interest you. It's tailor made for EnclaveSix and only they can request stuff etc. But you're free to use it.
+
+This mod was commissioned by Nexus Mods user [EnclaveSix](https://forums.nexusmods.com/index.php?/user/78133863-enclavesix/). If you would like me to make a mod for you, please get in touch.
 
 ## About Me
 
@@ -22,7 +26,7 @@ I'm partnered with [Bisect Hosting](https://bisecthosting.com/chebgonaz) to give
 
 If you would like to report a bug or request a feature, the best way to do it (in order from most preferable to least preferable) is:
 
-a) Create an issue on my [GitHub](https://github.com/jpw1991/chebs-mod-stub).
+a) Create an issue on my [GitHub](https://github.com/jpw1991/enclavesix-private-mod).
 
 b) Write to me on [Discord](https://discord.com/invite/EB96ASQ).
 
@@ -31,7 +35,6 @@ b) Write to me on [Discord](https://discord.com/invite/EB96ASQ).
 - Valheim
 - BepInEx
 - Jotunn
-- Cheb's Valheim Library (included)
 
 ## Installation (manual)
 
@@ -41,35 +44,23 @@ A correct installation looks like:
 
 ```sh
 plugins/
-├── Translations
-├── chebsmodstub
-├── chebsmodstub.manifest
-├── ChebsModStub.dll
-├── ChebsValheimLibrary.dll
+├── enclavesixprivatemod
+├── enclavesixprivatemod.manifest
+├── EnclaveSixPrivateMod.dll
 └── ... other mods ...
 ```
 
 ## Features
 
-Detailed info in the [wiki](https://github.com/jpw1991/chebs-mod-stub/wiki). Here's the short version:
-
-- to do
-
-### Config
-
-**Attention:** To edit the config, the [Configuration Manager](https://github.com/BepInEx/BepInEx.ConfigurationManager/releases) is the most user friendly way. This is a separate mod. Please download and install it.
-
-Press **F1** to open the mod's configuration panel.
-
-You can also edit the configs manually. Almost everything can be tweaked to your liking. For a complete list of all configuration options, please look [here](https://github.com/jpw1991/chebs-mod-stub/wiki/Configs).
+- Replace black banner texture with one with a dragon insignia
 
 ## Source
 
-You can find the github [here](https://github.com/jpw1991/chebs-mod-stub).
+You can find the github [here](https://github.com/jpw1991/enclavesix-private-mod).
 
 ## Special Thanks
 
-- to do
+- EnclaveSix for commissioning the mod.
 
 ## Changelog
 
@@ -78,7 +69,7 @@ You can find the github [here](https://github.com/jpw1991/chebs-mod-stub).
 
  Date | Version | Notes 
 --- | --- | ---
-25/07/2023 | 0.0.1 | First alpha version
+29/08/2023 | 0.0.1 | First alpha version
 
 </details>
 

@@ -1,12 +1,12 @@
 #!/bin/bash
 
-RELEASEDIR=ChebsModStub/bin/Release
-DLL=$RELEASEDIR/ChebsModStub.dll
-LIB=../chebs-valheim-library/ChebsValheimLibrary/bin/Release/ChebsValheimLibrary.dll
-BUN=../chebs-necromancy/ChebsNecromancyUnity/Assets/AssetBundles/chebsmodstub
-PLUGINS=ChebsModStub/Package/plugins
+RELEASEDIR=EnclaveSixPrivateMod/bin/Release
+DLL=$RELEASEDIR/EnclaveSixPrivateMod.dll
+#LIB=../chebs-valheim-library/ChebsValheimLibrary/bin/Release/ChebsValheimLibrary.dll
+BUN=../chebs-necromancy/ChebsNecromancyUnity/Assets/AssetBundles/enclavesixprivatemod
+PLUGINS=EnclaveSixPrivateMod/Package/plugins
 README=README.md
-TRANSLATIONS=Translations
+#TRANSLATIONS=Translations
 
 VERSION=$1
 
@@ -33,10 +33,10 @@ if [ ! -f "$README" ]; then
     exit 1
 fi
 
-if [ ! -f "$LIB" ]; then
-    echo "Error: $LIB does not exist or is not readable."
-    exit 1
-fi
+#if [ ! -f "$LIB" ]; then
+#    echo "Error: $LIB does not exist or is not readable."
+#    exit 1
+#fi
 
 if [ ! -f "$BUN" ]; then
     echo "Error: $BUN does not exist or is not readable."
@@ -46,12 +46,12 @@ fi
 
 cp -f "$DLL" "$PLUGINS" || { echo "Error: Failed to copy $DLL"; exit 1; }
 cp -f "$README" "$PLUGINS/../README.md" || { echo "Error: Failed to copy $README"; exit 1; }
-cp -rf "$TRANSLATIONS" "$PLUGINS/"  || { echo "Error: Failed to copy Translations"; exit 1; }
-cp -f "$LIB" "$PLUGINS" || { echo "Error: Failed to copy $LIB"; exit 1; }
+#cp -rf "$TRANSLATIONS" "$PLUGINS/"  || { echo "Error: Failed to copy Translations"; exit 1; }
+#cp -f "$LIB" "$PLUGINS" || { echo "Error: Failed to copy $LIB"; exit 1; }
 cp -f "$BUN" "$PLUGINS" || { echo "Error: Failed to copy $BUN"; exit 1; }
 cp -f "$BUN.manifest" "$PLUGINS" || { echo "Error: Failed to copy $BUN.manifest"; exit 1; }
 
-ZIPDESTINATION="../bin/Release/ChebsModStub.$VERSION.zip"
+ZIPDESTINATION="../bin/Release/EnclaveSixPrivateMod.$VERSION.zip"
 
 cd "$PLUGINS/.."
 if [ ! -z "$VERSION" ]; then

@@ -1,0 +1,9 @@
+﻿{
+  "name": "EnclaveSixPrivateMod",
+  "description": "A collection of additions and changes to Valheim requested by user EnclaveSix.",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/jpw1991/enclavesix-private-mod",
+  "dependencies": [
+    "ValheimModding-Jotunn-2.11.2"
+  ]
+}
