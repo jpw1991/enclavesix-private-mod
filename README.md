@@ -69,6 +69,7 @@ You can find the github [here](https://github.com/jpw1991/enclavesix-private-mod
 
  Date | Version | Notes 
 --- | --- | ---
+06/10/2023 | 1.1.0 | update & recompile for hildr's request
 29/08/2023 | 0.0.1 | First alpha version
 
 </details>

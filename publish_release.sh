@@ -3,7 +3,7 @@
 RELEASEDIR=EnclaveSixPrivateMod/bin/Release
 DLL=$RELEASEDIR/EnclaveSixPrivateMod.dll
 #LIB=../chebs-valheim-library/ChebsValheimLibrary/bin/Release/ChebsValheimLibrary.dll
-BUN=../chebs-necromancy/ChebsNecromancyUnity/Assets/AssetBundles/enclavesixprivatemod
+BUN="../ValheimRips/25-08-2023/valheim/Valheim DllExport - 2023-08-25/Assets/AssetBundles/enclavesixprivatemod"
 PLUGINS=EnclaveSixPrivateMod/Package/plugins
 README=README.md
 #TRANSLATIONS=Translations

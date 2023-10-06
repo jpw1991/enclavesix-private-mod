@@ -15,7 +15,7 @@ namespace EnclaveSixPrivateMod
     {
         public const string PluginGuid = "com.chebgonaz.enclavesixprivatemod";
         public const string PluginName = "EnclaveSixPrivateMod";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.1.0";
 
         private Mesh _bannerMesh;
         private Material _bannerMaterial;
